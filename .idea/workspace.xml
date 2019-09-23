@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7095d5fc-6ea0-4217-b827-eb4198c4892c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ContactComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FooterComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/leaders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/promotions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DishdetailComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/dishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/dishes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainComponent.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +135,8 @@
       <workItem from="1568782649272" duration="238000" />
       <workItem from="1568869679217" duration="2490000" />
       <workItem from="1568887630020" duration="2828000" />
-      <workItem from="1568953099505" duration="5583000" />
+      <workItem from="1568953099505" duration="5990000" />
+      <workItem from="1569214881093" duration="7069000" />
     </task>
     <servers />
   </component>
