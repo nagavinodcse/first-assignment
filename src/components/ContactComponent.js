@@ -3,20 +3,13 @@ import {Button,Label, Col,Row} from "reactstrap";
 import {Control,LocalForm,Errors} from "react-redux-form";
 
 class Contact extends Component {
-    constructor(props) {
-        super(props);
-        this.handleSubmit = this.handleSubmit.bind(this);
-    }
-    handleSubmit(values) {
+    handleSubmit = values =>
+    {
         alert('Current State is: ' + JSON.stringify(values));
-    }
+    };
 
     render() {
-        const required = (val) => val && val.length;
-        const maxLength = (len) => (val) => !(val) || (val.length <= len);
-        const minLength = (len) => (val) => val && (val.length >= len);
-        const isNumber = (val) => !isNaN(Number(val));
-        const validEmail = (val) => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(val);
+        const required = (val) => val && val.length, maxLength = (len) => (val) => !(val) || (val.length <= len), minLength = (len) => (val) => val && (val.length >= len), isNumber = (val) => !isNaN(Number(val)), validEmail = (val) => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(val);
         return (
             <div className="container">
                 <div className="row row-content">

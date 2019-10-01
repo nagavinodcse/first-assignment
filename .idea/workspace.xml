@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7095d5fc-6ea0-4217-b827-eb4198c4892c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/CommentFormComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/first-assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/first-assignment.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,8 +74,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
@@ -96,21 +105,6 @@
           <option name="name" value="StatusDashboardGroupingRule" />
         </RuleState>
       </list>
-    </option>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@26b52a90" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -137,6 +131,7 @@
       <workItem from="1569214881093" duration="8044000" />
       <workItem from="1569300450035" duration="747000" />
       <workItem from="1569387427511" duration="12011000" />
+      <workItem from="1569904703355" duration="3413000" />
     </task>
     <servers />
   </component>
@@ -155,5 +150,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="177" key="#ESLint" timestamp="1569906933089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1569906933089" />
+    <state x="816" y="146" key="RollbackChangesDialog" timestamp="1569826894464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="816" y="146" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1569826894464" />
+    <state x="647" y="284" width="626" height="472" key="find.popup" timestamp="1569836584726">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="647" y="284" width="626" height="472" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1569836584726" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1569833291187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1569833291187" />
   </component>
 </project>

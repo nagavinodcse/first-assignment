@@ -1,6 +1,7 @@
 import React from 'react';
-import {Card, CardBody, CardText, CardImg, CardTitle, Breadcrumb, BreadcrumbItem} from 'reactstrap';
+import {Card, CardBody, CardText, CardImg, CardTitle, Breadcrumb, BreadcrumbItem, Button} from 'reactstrap';
 import {Link} from 'react-router-dom';
+import CommentForm from "./CommentFormComponent";
 
 const RenderDish = ({dish}) => (
     <Card>
@@ -16,13 +17,21 @@ const RenderComments = ({comments}) => {
         let initialDate = new Date(date);
         return new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: '2-digit'}).format(initialDate);
     };
-    return comments != null ? comments.map(comment =>
+    let renderComments =  comments != null ? comments.map(comment =>
         (
             <li key={comment.id}>
                 <p>{comment.comment}</p>
                 <p>-- {comment.author}, {dateFormat(comment.date)}</p>
             </li>
         )) : '';
+    let commentForm = React.createRef();
+    return (
+        <ul className="commentList">
+            {renderComments}
+            <Button outline onClick={()=>{ commentForm.current.toggleModal();}}><span className="fa fa-pencil fa-lg"/> Submit Comment</Button>
+            <CommentForm ref={commentForm}/>
+        </ul>
+    )
 };
 const DishDetail = (props) => {
     let dish = props.dish;
@@ -43,9 +52,7 @@ const DishDetail = (props) => {
                     <RenderDish dish={dish}/>
                 </div>
                 <div className="col-12 col-md-6 mt-3">
-                    <ul className="commentList">
-                        <RenderComments comments={props.comments}/>
-                    </ul>
+                    <RenderComments comments={props.comments}/>
                 </div>
             </div>
         </div>
