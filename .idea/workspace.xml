@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7095d5fc-6ea0-4217-b827-eb4198c4892c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CommentFormComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/first-assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/first-assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/dishes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/leaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/promotions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommentFormComponent.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DishdetailComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/configureStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Q37TQc9FeLqZDf7yHDWDlpsepM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -131,7 +140,8 @@
       <workItem from="1569214881093" duration="8044000" />
       <workItem from="1569300450035" duration="747000" />
       <workItem from="1569387427511" duration="12011000" />
-      <workItem from="1569904703355" duration="3413000" />
+      <workItem from="1569904703355" duration="4631000" />
+      <workItem from="1570095211541" duration="182000" />
     </task>
     <servers />
   </component>
