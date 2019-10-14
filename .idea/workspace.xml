@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7095d5fc-6ea0-4217-b827-eb4198c4892c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/ActionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/ActionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoadingComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ActionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ActionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dishes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -102,18 +110,6 @@
       <recent name="D:\first-assignment\public" />
       <recent name="D:\first-assignment\src\components" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -142,7 +138,12 @@
       <workItem from="1569904703355" duration="4631000" />
       <workItem from="1570095211541" duration="831000" />
       <workItem from="1570165998277" duration="69000" />
-      <workItem from="1570180075008" duration="1476000" />
+      <workItem from="1570180075008" duration="3313000" />
+      <workItem from="1570688218176" duration="2653000" />
+      <workItem from="1570696835650" duration="816000" />
+      <workItem from="1570769796154" duration="605000" />
+      <workItem from="1571046792890" duration="124000" />
+      <workItem from="1571047127772" duration="6246000" />
     </task>
     <servers />
   </component>
@@ -170,17 +171,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1569906933089" />
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1571046889692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1571046889692" />
     <state x="816" y="146" key="RollbackChangesDialog" timestamp="1569826894464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="816" y="146" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1569826894464" />
+    <state x="449" y="161" key="SettingsEditor" timestamp="1570696326527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="449" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1570696326527" />
+    <state x="807" y="426" key="VCS.ChangelistChooser" timestamp="1570688848290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="426" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1570688848290" />
     <state x="647" y="284" width="626" height="472" key="find.popup" timestamp="1569836584726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="647" y="284" width="626" height="472" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1569836584726" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1570180603828">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1571054192528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1570180603828" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1571054192528" />
+    <state x="682" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1571051634692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1571051634692" />
   </component>
 </project>

@@ -1,6 +1,8 @@
 import React from 'react';
 import {Card, CardImgOverlay, CardImg, CardTitle,Breadcrumb,BreadcrumbItem} from 'reactstrap';
 import {Link} from "react-router-dom";
+import { Loading } from './LoadingComponent';
+
 const RenderMenuItem = ({dish}) => (
     <Card>
         <Link to={`/menu/${dish.id}`}>
@@ -12,7 +14,21 @@ const RenderMenuItem = ({dish}) => (
     </Card>
 );
 const Menu = ({dishes}) =>{
-    return (
+    return dishes.isLoading ? (
+        <div className="container">
+            <div className="row">
+                <Loading/>
+            </div>
+        </div>
+    ) : dishes.errMess ? (
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
+                    <h4>{dishes.errMess}</h4>
+                </div>
+            </div>
+        </div>
+    ) : (
         <div className="container">
             <div className="row">
                 <Breadcrumb>
@@ -21,7 +37,7 @@ const Menu = ({dishes}) =>{
                 </Breadcrumb>
                 <div className="col-12">
                     <h3>Menu</h3>
-                    <hr />
+                    <hr/>
                 </div>
             </div>
             <div className="row">
