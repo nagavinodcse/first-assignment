@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Button,Label, Col,Row} from "reactstrap";
-import {Control,Form,Errors,actions} from "react-redux-form";
+import {Control,Form,Errors} from "react-redux-form";
 
 class Contact extends Component {
     handleSubmit = values =>

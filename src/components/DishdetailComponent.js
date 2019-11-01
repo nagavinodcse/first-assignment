@@ -4,21 +4,25 @@ import {Link} from 'react-router-dom';
 import {Control, LocalForm, Errors} from "react-redux-form";
 import { Loading } from './LoadingComponent';
 import { baseUrl } from '../shared/baseUrl';
+import {FadeTransform,Fade,Stagger} from "react-animation-components";
 const RenderDish = ({dish}) => (
-    <Card>
-        <CardImg top src={`${baseUrl}${dish.image}`} alt={dish.name}/>
-        <CardBody>
-            <CardTitle>{dish.name}</CardTitle>
-            <CardText>{dish.description}</CardText>
-        </CardBody>
-    </Card>
+    <FadeTransform in transformProps={{ exitTransform: 'scale(0.5) translateY(-50%)' }}>
+        <Card>
+            <CardImg top src={`${baseUrl}${dish.image}`} alt={dish.name}/>
+            <CardBody>
+                <CardTitle>{dish.name}</CardTitle>
+                <CardText>{dish.description}</CardText>
+            </CardBody>
+        </Card>
+    </FadeTransform>
 );
 const RenderComments = ({comments,postComment,dishId}) => {
     const dateFormat = date => {
         let initialDate = new Date(date);
         return new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: '2-digit'}).format(initialDate);
     };
-    let renderComments =  comments != null ? comments.map(comment =>
+    let renderComments =  comments != null ?
+        comments.map(comment =>
         (
             <li key={comment.id}>
                 <p>{comment.comment}</p>
@@ -27,7 +31,9 @@ const RenderComments = ({comments,postComment,dishId}) => {
         )) : '';
     return (
         <ul className="commentList">
-            {renderComments}
+            <Stagger in>
+                {renderComments}
+            </Stagger>
             <CommentForm dishId={dishId} postComment={postComment} />
         </ul>
     )
