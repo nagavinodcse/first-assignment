@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7095d5fc-6ea0-4217-b827-eb4198c4892c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-server/images/alberto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-server/images/buffet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-server/images/elaicheesecake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-server/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-server/images/uthappizza.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-server/images/vadonut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-server/images/zucchipakoda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/forms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/baseUrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/images/alberto.png" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/public/images/alberto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/images/buffet.png" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/public/images/buffet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/images/elaicheesecake.png" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/public/images/elaicheesecake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/public/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/images/uthappizza.png" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/public/images/uthappizza.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/images/vadonut.png" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/public/images/vadonut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/images/zucchipakoda.png" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/public/images/zucchipakoda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/ActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ActionCreators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ActionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ConfigureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dishes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/leaders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/leaders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/promotions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/promotions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +107,14 @@
     <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\first-assignment\public" />
-      <recent name="D:\first-assignment\src\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\first-assignment\json-server" />
       <recent name="D:\first-assignment\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\first-assignment\json-server\public" />
+      <recent name="D:\first-assignment\public" />
+      <recent name="D:\first-assignment\src\components" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -162,7 +153,7 @@
       <workItem from="1571114407066" duration="17000" />
       <workItem from="1572330694703" duration="7438000" />
       <workItem from="1572410575264" duration="11000" />
-      <workItem from="1572585350141" duration="3413000" />
+      <workItem from="1572585350141" duration="8761000" />
     </task>
     <servers />
   </component>
@@ -194,6 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1571046889692" />
+    <state x="540" y="262" key="IDE.errors.dialog" timestamp="1572591035324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1572591035324" />
     <state x="816" y="146" key="RollbackChangesDialog" timestamp="1569826894464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -210,10 +205,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="647" y="284" width="626" height="472" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1571055764027" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1572588977394">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1572598882830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1572588977394" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1572598882830" />
     <state x="682" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1571051634692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
