@@ -13,7 +13,7 @@ const RenderDish = ({dish}) => (
         </CardBody>
     </Card>
 );
-const RenderComments = ({comments,addComment,dishId}) => {
+const RenderComments = ({comments,postComment,dishId}) => {
     const dateFormat = date => {
         let initialDate = new Date(date);
         return new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: '2-digit'}).format(initialDate);
@@ -28,7 +28,7 @@ const RenderComments = ({comments,addComment,dishId}) => {
     return (
         <ul className="commentList">
             {renderComments}
-            <CommentForm dishId={dishId} addComment={addComment} />
+            <CommentForm dishId={dishId} postComment={postComment} />
         </ul>
     )
 };
@@ -63,7 +63,7 @@ const DishDetail = (props) => {
                 <RenderDish dish={dish}/>
             </div>
             <div className="col-12 col-md-6 mt-3">
-                <RenderComments comments={props.comments} addComment={props.addComment} dishId={props.dish.id}/>
+                <RenderComments comments={props.comments} postComment={props.postComment} dishId={props.dish.id}/>
             </div>
         </div>
     </div>) : <div/>;
@@ -80,7 +80,7 @@ class CommentForm extends Component
 
     handleSubmit = values =>
     {
-        this.props.addComment(this.props.dishId, values.rating, values.author, values.comment);
+        this.props.postComment(this.props.dishId, values.rating, values.author, values.comment);
     };
     toggleModal = () =>
     {
