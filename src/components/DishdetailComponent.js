@@ -16,27 +16,35 @@ const RenderDish = ({dish}) => (
         </Card>
     </FadeTransform>
 );
-const RenderComments = ({comments,postComment,dishId}) => {
-    const dateFormat = date => {
+const RenderComments = ({comments,postComment,dishId}) =>
+{
+    const dateFormat = date =>
+    {
         let initialDate = new Date(date);
         return new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: '2-digit'}).format(initialDate);
     };
-    let renderComments =  comments != null ?
-        comments.map(comment =>
-        (
-            <li key={comment.id}>
-                <p>{comment.comment}</p>
-                <p>-- {comment.author}, {dateFormat(comment.date)}</p>
-            </li>
-        )) : '';
-    return (
-        <ul className="commentList">
-            <Stagger in>
-                {renderComments}
-            </Stagger>
-            <CommentForm dishId={dishId} postComment={postComment} />
-        </ul>
-    )
+    if (comments != null){
+        return (
+            <ul className="commentList">
+                <Stagger in>
+                    {
+                        comments.map(comment =>
+                            (
+                                <Fade in>
+                                    <li key={comment.id}>
+                                        <p>{comment.comment}</p>
+                                        <p>-- {comment.author} , {dateFormat(comment.date)}</p>
+                                    </li>
+                                </Fade>
+                            ))
+                    }
+                </Stagger>
+                <CommentForm dishId={dishId} postComment={postComment}/>
+            </ul>
+        )
+    }else{
+        return '';
+    }
 };
 const DishDetail = (props) => {
     let dish = props.dish;
