@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7095d5fc-6ea0-4217-b827-eb4198c4892c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ActionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ActionTypes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +81,7 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/json-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -142,7 +148,9 @@
       <workItem from="1572410575264" duration="11000" />
       <workItem from="1572585350141" duration="14133000" />
       <workItem from="1572851126203" duration="23000" />
-      <workItem from="1572862603655" duration="955000" />
+      <workItem from="1572862603655" duration="4000000" />
+      <workItem from="1572933451699" duration="1413000" />
+      <workItem from="1573191269095" duration="7939000" />
     </task>
     <servers />
   </component>
@@ -174,6 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1571046889692" />
+    <state x="740" y="301" key="FileChooserDialogImpl" timestamp="1573197691067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="301" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1573197691067" />
     <state x="540" y="262" key="IDE.errors.dialog" timestamp="1572602092108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -190,14 +202,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="807" y="426" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1570688848290" />
-    <state x="647" y="284" width="626" height="472" key="find.popup" timestamp="1571055764027">
+    <state x="647" y="284" width="626" height="526" key="find.popup" timestamp="1573197702223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="647" y="284" width="626" height="472" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1571055764027" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1572604349030">
+    <state x="647" y="284" width="626" height="526" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1573197702223" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1573201181928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1572604349030" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1573201181928" />
     <state x="682" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1571051634692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

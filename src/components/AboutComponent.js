@@ -2,24 +2,36 @@ import React from 'react';
 import {Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media} from 'reactstrap';
 import {Link} from 'react-router-dom';
 import {baseUrl} from "../shared/baseUrl";
-
-const RenderLeader = ({leaders}) => {
-    return leaders != null ? leaders.map((leader, k) =>
-            (
-                <Media key={k} className="mt-3">
-                    <Media left href="#">
-                        <Media object src={`${baseUrl}${leader.image}`} alt={leader.name}/>
-                    </Media>
-                    <Media body className="pl-3">
-                        <Media heading>
-                            {leader.name}
-                        </Media>
-                        <p>{leader.designation}</p>
-                        <p>{leader.description}</p>
-                    </Media>
-                </Media>
-            ))
-        : '';
+import {Fade,Stagger} from "react-animation-components";
+import {Loading} from "./LoadingComponent";
+const RenderLeader = ({leaders,isLoading, errMess}) => {
+    return isLoading ? (
+        <Loading/>
+    ) : errMess ? (
+        <h4>{errMess}</h4>
+    ) : (
+        <Stagger in>
+            {
+                leaders.map((leader, k) =>
+                    (
+                        <Fade key={k} in>
+                            <Media className="mt-3">
+                                <Media left href="#">
+                                    <Media object src={`${baseUrl}${leader.image}`} alt={leader.name}/>
+                                </Media>
+                                <Media body className="pl-3">
+                                    <Media heading>
+                                        {leader.name}
+                                    </Media>
+                                    <p>{leader.designation}</p>
+                                    <p>{leader.description}</p>
+                                </Media>
+                            </Media>
+                        </Fade>
+                    ))
+            }
+        </Stagger>
+    );
 };
 const About = props => {
     return (
@@ -83,7 +95,7 @@ const About = props => {
                     <h2>Corporate Leadership</h2>
                 </div>
                 <div className="col-12">
-                    <RenderLeader leaders={props.leaders}/>
+                    <RenderLeader leaders={props.leaders} isLoading={props.leaders.isLoading} errMess={props.errMess}/>
                 </div>
             </div>
         </div>

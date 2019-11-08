@@ -23,28 +23,24 @@ const RenderComments = ({comments,postComment,dishId}) =>
         let initialDate = new Date(date);
         return new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: '2-digit'}).format(initialDate);
     };
-    if (comments != null){
-        return (
-            <ul className="commentList">
-                <Stagger in>
-                    {
-                        comments.map(comment =>
-                            (
-                                <Fade in>
-                                    <li key={comment.id}>
-                                        <p>{comment.comment}</p>
-                                        <p>-- {comment.author} , {dateFormat(comment.date)}</p>
-                                    </li>
-                                </Fade>
-                            ))
-                    }
-                </Stagger>
-                <CommentForm dishId={dishId} postComment={postComment}/>
-            </ul>
-        )
-    }else{
-        return '';
-    }
+    return comments != null ? (
+        <ul className="commentList">
+            <Stagger in>
+                {
+                    comments.map(comment =>
+                        (
+                            <Fade in>
+                                <li key={comment.id}>
+                                    <p>{comment.comment}</p>
+                                    <p>-- {comment.author} , {dateFormat(comment.date)}</p>
+                                </li>
+                            </Fade>
+                        ))
+                }
+            </Stagger>
+            <CommentForm dishId={dishId} postComment={postComment}/>
+        </ul>
+    ) : '';
 };
 const DishDetail = (props) => {
     let dish = props.dish;
